@@ -1,27 +1,162 @@
-# ExamFront
+# ExamPortal_Website_SpringBoot
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+# ExamPortal Website with Spring Boot And Angular
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgments)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Introduction
 
-## Build
+Creating an exam portal using Spring Boot for the backend and Angular for the frontend is a substantial project that involves multiple components, functionalities, and integrations. Below are the key objectives and steps to create an exam portal with Spring Boot and Angular:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Features
 
-## Running unit tests
+- **User Authentication and Authorization:**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Implement user registration and login functionality.
+Define user roles (e.g., admin, teacher, student) and restrict access based on roles.
 
-## Running end-to-end tests
+- **Exam Management:**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Create and manage exams, including setting up questions, answers, and time limits.
+Define different types of questions (multiple-choice, true/false, short answer, etc.).
+Implement question randomization to prevent cheating.
 
-## Further help
+- **User Dashboard:**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Provide a dashboard for students and teachers to view their exams and results.
+Allow students to enroll in exams.
+Enable teachers to create, edit, and publish exams.
+
+- **Exam Taking and Grading:**
+
+Implement a timer for exams.
+Allow students to submit answers and auto-grade exams.
+Enable teachers to review and manually grade exams.
+
+- **Scoring and Analytics:**
+
+Calculate and display exam scores and overall performance.
+Provide analytics and reports for teachers to track student progress.
+
+- **Security and Data Protection:**
+
+Implement security measures to protect sensitive data.
+Secure API endpoints and use token-based authentication (JWT).
+Encrypt user passwords and sensitive data in the database.
+
+- **Database Integration:**
+
+Use a relational database (e.g., MySQL, PostgreSQL) to store user data, exams, questions, and results.
+Create appropriate database schemas and relationships.
+
+- **Frontend Development (Angular):**
+
+Develop responsive and user-friendly web pages for registration, login, exam taking, and results viewing.
+Implement dynamic forms for exam creation and question management.
+Use Angular routing for navigation between pages.
+
+-**Backend Development (Spring Boot):**
+
+Create RESTful APIs to handle user registration, authentication, exam management, and scoring.
+Implement business logic for exam processing and grading.
+Integrate with the database to store and retrieve data.
+
+## Getting Started
+### Prerequisites
+
+Before you begin, ensure you have the following software installed:
+
+- Java JDK ([Download](https://www.oracle.com/java/technologies/javase-downloads.html))
+- Spring Boot ([Installation Guide](https://spring.io/projects/spring-boot))
+- MySQL Database ([Download](https://dev.mysql.com/downloads/))
+- Maven ([Download](https://maven.apache.org/download.cgi))
+- NodeJS ([Download](https://nodejs.org/en/download/current))
+- Angular CLI (npm install -g @angular/cli
+)
+
+  
+##Screenshots
+
+##Home Page 
+
+<img src="./Screenshots/Home.png">
+
+##SignUp Page 
+
+<img src="./Screenshots/reg.png">
+
+##Login Page 
+
+<img src="./Screenshots/login.png">
+
+##Admin Profile Page
+<img src="./Screenshots/admin_profile.png"> 
+
+
+
+##Admin Categories
+<img src="./Screenshots/Add-category.png">
+
+
+
+##Admin New Categories
+
+<img src="./Screenshots/new-cat.png">
+
+##Admin Quizzes
+
+<img src="./Screenshots/quizzes.png">
+
+##Admin  New Quizzes
+
+<img src="./Screenshots/new quiz.png">
+
+
+##Admin Questions
+
+<img src="./Screenshots/questions.png">
+
+##Admin New Questions
+
+<img src="./Screenshots/add-question.png">
+
+##User-Dashboard
+
+<img src="./Screenshots/All-av-quiz.png">
+
+##User-Questions By Category
+
+<img src="./Screenshots/quiz-by-cat.png">
+
+##User-Quiz Instruction
+
+<img src="./Screenshots/instruct.png">
+
+##User-Attempting the quiz
+
+<img src="./Screenshots/test-quiz.png">
+
+##User-Quiz Result
+
+<img src="./Screenshots/quiz-by-cat.png">
+
+##User-Quiz Print Result
+
+<img src="./Screenshots/print.png">
+
+##Become Prime User-Payment Page 
+
+<img src="./Screenshots/payment.png">
